@@ -66,5 +66,8 @@ typings/
 !.vscode/launch.json
 !.vscode/extensions.json
 
+# Flow Typed Libraries
+flow-typed
+
 
 # End of https://www.gitignore.io/api/node,visualstudiocode
