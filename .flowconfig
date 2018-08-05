@@ -1,0 +1,18 @@
+[ignore]
+.*/__tests__/.*
+<PROJECT_ROOT>/node_modules
+
+[include]
+
+[libs]
+
+[lints]
+
+[options]
+emoji=true
+module.name_mapper='^@containers/\([-a-zA-Z0-9$_/]+\)$' -> '<PROJECT_ROOT>/src/containers/\1'
+module.name_mapper='^@components/\([-a-zA-Z0-9$_/]+\)$' -> '<PROJECT_ROOT>/src/components/\1'
+module.name_mapper='^@utils/\([-a-zA-Z0-9$_/]+\)$' -> '<PROJECT_ROOT>/src/utils\1'
+module.name_mapper='^@types/\([-a-zA-Z0-9$_/]+\)$' -> '<PROJECT_ROOT>/src/types\1'
+
+[strict]
